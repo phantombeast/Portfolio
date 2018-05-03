@@ -1,0 +1,142 @@
+.row1{
+
+    width: 100%;
+    height: 700px;
+    /*background-color: white;*/
+
+}
+#yoo{
+
+    height: 500px;
+}
+#div2{
+    height: 600px;
+    position: relative;
+    display: flex;
+}
+
+#div3{
+
+    height: 800px;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 30px;
+    margin-top: 50px;
+
+}
+ul#menu {
+    float:right;
+    margin-top:0;
+}
+
+li {
+    float: left;
+}
+a{
+    color: white;
+}
+
+li a {
+    display: block;
+    /*color: white;*/
+
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul:hover{
+    background-color: black;
+}
+li a :hover{
+    background-color: black;
+}
+
+li :hover {
+    background-color: black;
+    color: darkred;
+    text-decoration: line-through darkred;
+    transition: ease-out 1s;
+}
+.logo {
+    font-family: Harrington;
+    color: white;
+
+}
+.logo:hover{
+    font-family: Harrington;
+    font-size: 40px;
+    color: darkred;
+    text-decoration:  darkred;
+    transition: ease-out 1s;
+}
+.i:hover{
+    color: darkred;
+    transition: ease-out 1s;
+}
+
+
+#pulkit{
+
+    animation-duration: 2s;
+    animation-name: fadeout ;
+}
+@keyframes fadeout{
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+#pulkit1{
+
+    animation-duration: 4s;
+    animation-name: fadeout ;
+}
+@keyframes fadeout{
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+#pulkit2{
+
+    animation-duration: 7s;
+    animation-name: fadeout ;
+}
+@keyframes fadeout{
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.progressBars {
+    width: 65%;
+    margin-left:10px ;
+    left: 18px;
+}
+
+.flex {
+
+    top: 14px;
+    display: flex;
+        margin-left: 20px;
+    color: black;
+}
